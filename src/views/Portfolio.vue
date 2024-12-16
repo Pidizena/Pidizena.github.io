@@ -52,9 +52,9 @@ const bityskaUrls: Array<string> = [
 
 <template>
   <div class="container">
-    <h1>Projekt Hruška</h1>
+    <h1>Obnova Hrušek</h1>
     <ImageGallery :items="pearUrls"/>
-    <h1>Projekt Veverská Bítýška</h1>
+    <h1>Náměstí Veverská Bítýška</h1>
     <ImageGallery :items="bityskaUrls"/>
   </div>
 </template>
