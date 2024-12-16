@@ -1,0 +1,38 @@
+@use 'variables';
+
+:root {
+  font-family: var(--article-font), sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 32px;
+
+  color-scheme: light dark;
+  color: var(--primary-fg-color);
+  background-color: var(--primary-bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+
+  #app {
+    max-width: 100%;
+  }
+}
+
+
+a {
+  font-weight: 500;
+  color: var(--primary-link-color);
+  text-decoration: inherit;
+
+  &:hover  {
+    filter: brightness(80%);
+  }
+}

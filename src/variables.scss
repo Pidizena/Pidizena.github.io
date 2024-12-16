@@ -1,0 +1,14 @@
+:root {
+  --primary-bg-color: #242424;
+  --primary-fg-color: white;
+  --primary-link-color: #339FA2;
+  --primary-btn-color: #9cca89;
+  --article-font: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial;
+  --headline-font: 'Crimson Pro', 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial;
+
+  @media (prefers-color-scheme: light) {
+    --primary-bg-color: white;
+    --rimary-fg-color: black;
+    --rimary-link-color: #339FA2;
+  }
+}
