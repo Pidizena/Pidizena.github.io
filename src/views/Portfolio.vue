@@ -53,8 +53,10 @@ const bityskaUrls: Array<string> = [
 <template>
   <div class="container">
     <h1>Obnova Hrušek</h1>
+    <p>Tento projekt vznikl jako studentská práce ve skupině.</p>
     <ImageGallery :items="pearUrls"/>
     <h1>Náměstí Veverská Bítýška</h1>
+    <p>Tento projekt vznikl jako studentská práce ve skupině.</p>
     <ImageGallery :items="bityskaUrls"/>
   </div>
 </template>
@@ -72,6 +74,13 @@ const bityskaUrls: Array<string> = [
       align-self: center;
       font-size: 1.8rem;
       font-weight: bold;
+    }
+
+    p {
+      margin: 0 0.1rem;
+      font-size: 0.6rem;
+      font-weight: lighter;
+      font-style: italic;
     }
   }
 </style>
