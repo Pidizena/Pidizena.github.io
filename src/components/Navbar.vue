@@ -37,7 +37,6 @@ import Favicon from "./Favicon.vue";
       margin-left: 0.5rem;
       margin-right: 0.75rem;
       width: 2rem;
-      fill: white !important;
     }
 
     .navbar-menu {

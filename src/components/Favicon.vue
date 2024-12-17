@@ -14,11 +14,5 @@
     svg {
       fill: white;
     }
-
-    @media (prefers-color-scheme: light) {
-      svg {
-        fill: black;
-      }
-    }
   }
 </style>
