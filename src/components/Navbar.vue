@@ -28,9 +28,9 @@ import Favicon from "./Favicon.vue";
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 
-    color:  var(--primary-fg-color-color);
+    color:  white;
     a:link, a:visited, a:hover, a:active {
-      color:  var(--primary-fg-color-hover-color);
+      color:  white;
     }
 
     .navbar-brand {
