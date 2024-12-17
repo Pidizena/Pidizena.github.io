@@ -28,6 +28,7 @@
       align-self: center;
       font-size: 1.8rem;
       font-weight: bold;
+      text-align: center;
     }
 
     .home-article {

@@ -72,6 +72,10 @@ function nextImage() {
       border: none;
       padding: 10px;
       cursor: pointer;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 1rem;
+      }
     }
 
     .left {

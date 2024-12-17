@@ -13,5 +13,9 @@ import Navbar from "./components/Navbar.vue";
 <style scoped>
   .content-container {
     margin: 0 10%;
+
+    @media only screen and (max-width: 600px) {
+      margin: 0 2%;
+    }
   }
 </style>
